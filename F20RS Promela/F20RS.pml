@@ -57,7 +57,7 @@ active proctype env(){
 }
 
 init{
-       ryn monitor();
+       run monitor();
        run control();
        run env();
 }
